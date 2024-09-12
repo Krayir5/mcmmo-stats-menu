@@ -1,0 +1,45 @@
+menu_title: '&6İstatistikler'
+open_command:
+  - istatistik
+  - pmenü
+register_command: true
+open_commands:
+- '[sound] BLOCK_CHEST_OPEN'
+size: 9
+items:
+  'player_statistic':
+    material: head-%player_name%
+    slot: 3
+    display_name: '&8● &rİstatikleriniz'
+    lore:
+    - '&b&o&lToplama Becerileri'
+    - '&r&7%img_kurek% Kazı seviyeniz: &6%mcmmo_level_excavation%'
+    - '&r&7%img_balik% Balıkçılık seviyeniz: &6%mcmmo_level_fishing%'
+    - '&r&7%img_bugday% Tarım seviyeniz: &6%mcmmo_level_herbalism%'
+    - '&r&7%img_kazma% Madencilik seviyeniz: &6%mcmmo_level_mining%'
+    - '&r&7%img_odun% Odunculuk seviyeniz: &6%mcmmo_level_woodcutting%'
+    - '&b&o&lSavaş Becerileri'
+    - '&r&7%img_yay% Okçuluk seviyeniz: &6%mcmmo_level_archery%'
+    - '&r&7%img_balta% Balta seviyeniz: &6%mcmmo_level_axes%'
+    - '&r&7%img_banner_illager% Arbalet seviyeniz: &6%mcmmo_level_crossbows%'
+    - '&r&7%img_dsword% Kılıç seviyeniz: &6%mcmmo_level_swords%'
+    - '&r&7%img_bcat% Evcilleştirme seviyeniz: &6%mcmmo_level_taming%'
+    - '&r&7%img_trident% Üç Uçlu Mızrak seviyeniz: &6%mcmmo_level_tridents%'
+    - '&r&7%img_yumruk% Yumruk seviyeniz: &6%mcmmo_level_unarmed%'
+    - '&b&o&lÇeşitli Beceriler'
+    - '&r&7%img_acat% Akrobasi seviyeniz: &6%mcmmo_level_acrobatics%'
+    - '&r&7%img_simya% Simya seviyeniz: &6%mcmmo_level_alchemy%'
+    - '&r&7%img_anvil% Tamir seviyeniz: &6%mcmmo_level_repair%'
+    - '&r&7%img_hurda% Hurda seviyeniz: &6%mcmmo_level_salvage%'
+    - '&r&7%img_furnace% Pişirme seviyeniz: &6%mcmmo_level_smelting%'
+    - ''
+    - '&r&7%img_lantern% Toplam seviyeniz: &6%mcmmo_power_level%'
+  'guild':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRhZmEyZDNlNGU2ZGZmNDI5MTcxMzExYTljYzJiYWIyNjYwYjYyOTUyNzYyNzM0ZDU2OTQ1OTJhMjgwNzk4YSJ9fX0=
+    slots: 
+    - 5
+    display_name: ' &8● &aParti İstatistikleri'
+    lore:
+    - ''
+    - '&r&7Parti ismi: %mcmmo_party_name%'
+    - '&r&7Partideki üye sayısı: %mcmmo_party_size%'

@@ -1,0 +1,111 @@
+info:
+  namespace: "mcmmo-gui"
+font_images:
+  balta:
+#permission: "krayir5.emote"
+    path: "balta"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true
+  simya:
+#permission: "krayir5.emote"
+    path: "simya"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true
+  lantern:
+#permission: "krayir5.emote"
+    path: "lantern"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true
+  odun:
+#permission: "krayir5.emote"
+    path: "odun"
+    scale_ratio: 8
+    y_position: 8
+    show_in_gui: true
+  kurek:
+#permission: "krayir5.emote"
+    path: "kurek"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true
+  buyumasasi:
+#permission: "krayir5.emote"
+    path: "buyumasasi"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true
+  capa:
+#permission: "krayir5.emote"
+    path: "capa"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true
+  kazma:
+#permission: "krayir5.emote"
+    path: "kazma"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true
+  bugday:
+#permission: "krayir5.emote"
+    path: "bugday"
+    scale_ratio: 8
+    y_position: 8
+    show_in_gui: true
+  balik:
+#permission: "krayir5.emote"
+    path: "balik"
+    scale_ratio: 7
+    y_position: 7
+    show_in_gui: true
+  yay:
+#permission: "krayir5.emote"
+    path: "yay"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true
+  banner_illager:
+#permission: "krayir5.emote"
+    path: "banner_illager"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true
+  trident:
+#permission: "krayir5.emote"
+    path: "trident"
+    scale_ratio: 12
+    y_position: 8
+    show_in_gui: true
+  yumruk:
+#permission: "krayir5.emote"
+    path: "yumruk"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true
+  anvil:
+#permission: "krayir5.emote"
+    path: "anvil"
+    scale_ratio: 8
+    y_position: 8
+    show_in_gui: true
+  acat:
+#permission: "krayir5.emote"
+    path: "acat"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true
+  hurda:
+#permission: "krayir5.emote"
+    path: "hurda"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true
+  bell:
+#permission: "krayir5.emote"
+    path: "bell"
+    scale_ratio: 10
+    y_position: 8
+    show_in_gui: true

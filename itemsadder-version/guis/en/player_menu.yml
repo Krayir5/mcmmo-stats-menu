@@ -1,0 +1,47 @@
+menu_title: '&6Statistics'
+register_command: true
+open_command:
+  - mmostats
+  - pmenu
+  - pstats
+register_command: true
+open_commands:
+- '[sound] BLOCK_CHEST_OPEN'
+size: 9
+items:
+  'player_statistic':
+    material: head-%player_name%
+    slot: 3
+    display_name: '&8● &rYour Stats'
+    lore:
+    - '&b&o&lGathering Skills'
+    - '&r&7%img_kurek% Excavation level: &6%mcmmo_level_excavation%'
+    - '&r&7%img_balik% Fishing level: &6%mcmmo_level_fishing%'
+    - '&r&7%img_bugday% Herbalism level: &6%mcmmo_level_herbalism%'
+    - '&r&7%img_kazma% Mining level: &6%mcmmo_level_mining%'
+    - '&r&%img_odun% Woodcutting level: &6%mcmmo_level_woodcutting%'
+    - '&b&o&lCombat Skills'
+    - '&r&7%img_yay% Archery level: &6%mcmmo_level_archery%'
+    - '&r&7%img_balta% Axe level: &6%mcmmo_level_axes%'
+    - '&r&7%img_banner_illager%Crossbow level: &6%mcmmo_level_crossbows%'
+    - '&r&7%img_dsword% Sword level: &6%mcmmo_level_swords%'
+    - '&r&7%img_bcat% Taming level: &6%mcmmo_level_taming%'
+    - '&r&7%img_trident% Trident level: &6%mcmmo_level_tridents%'
+    - '&r&7%img_yumruk% Unarmed level: &6%mcmmo_level_unarmed%'
+    - '&b&o&lMisc Skills'
+    - '&r&7%img_acat% Acrobatics level: &6%mcmmo_level_acrobatics%'
+    - '&r&7%img_simya% Alchemy level: &6%mcmmo_level_alchemy%'
+    - '&r&7%img_anvil% Repair level: &6%mcmmo_level_repair%'
+    - '&r&7%img_hurda% Salvage level: &6%mcmmo_level_salvage%'
+    - '&r&7%img_furnace% Smelting level: &6%mcmmo_level_smelting%'
+    - ''
+    - '&r&7%img_lantern% Total level: &6%mcmmo_power_level%'
+  'party':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRhZmEyZDNlNGU2ZGZmNDI5MTcxMzExYTljYzJiYWIyNjYwYjYyOTUyNzYyNzM0ZDU2OTQ1OTJhMjgwNzk4YSJ9fX0=
+    slots: 
+    - 5
+    display_name: ' &8● &aParty Stats'
+    lore:
+    - ''
+    - '&r&7Party name: %mcmmo_party_name%'
+    - '&r&7Members: %mcmmo_party_size%'
