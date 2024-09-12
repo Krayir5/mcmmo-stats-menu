@@ -1,0 +1,47 @@
+menu_title: '&6Statistics'
+register_command: true
+open_command:
+  - mmostats
+  - pmenu
+  - pstats
+register_command: true
+open_commands:
+- '[sound] BLOCK_CHEST_OPEN'
+size: 9
+items:
+  'player_statistic':
+    material: head-%player_name%
+    slot: 3
+    display_name: '&8● &rYour Stats'
+    lore:
+    - '&b&o&lGathering Skills'
+    - '&r&7Excavation level: &6%mcmmo_level_excavation%'
+    - '&r&7Fishing level: &6%mcmmo_level_fishing%'
+    - '&r&7Herbalism level: &6%mcmmo_level_herbalism%'
+    - '&r&7Mining level: &6%mcmmo_level_mining%'
+    - '&r&Woodcutting level: &6%mcmmo_level_woodcutting%'
+    - '&b&o&lCombat Skills'
+    - '&r&7Archery level: &6%mcmmo_level_archery%'
+    - '&r&7Axe level: &6%mcmmo_level_axes%'
+    - '&r&7Crossbow level: &6%mcmmo_level_crossbows%'
+    - '&r&7Sword level: &6%mcmmo_level_swords%'
+    - '&r&7Taming level: &6%mcmmo_level_taming%'
+    - '&r&7Trident level: &6%mcmmo_level_tridents%'
+    - '&r&7Unarmed level: &6%mcmmo_level_unarmed%'
+    - '&b&o&lMisc Skills'
+    - '&r&7Acrobatics level: &6%mcmmo_level_acrobatics%'
+    - '&r&7Alchemy level: &6%mcmmo_level_alchemy%'
+    - '&r&7Repair level: &6%mcmmo_level_repair%'
+    - '&r&7Salvage level: &6%mcmmo_level_salvage%'
+    - '&r&7Smelting level: &6%mcmmo_level_smelting%'
+    - ''
+    - '&r&7Total level: &6%mcmmo_power_level%'
+  'party':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRhZmEyZDNlNGU2ZGZmNDI5MTcxMzExYTljYzJiYWIyNjYwYjYyOTUyNzYyNzM0ZDU2OTQ1OTJhMjgwNzk4YSJ9fX0=
+    slots: 
+    - 5
+    display_name: ' &8● &aParty Stats'
+    lore:
+    - ''
+    - '&r&7Party name: %mcmmo_party_name%'
+    - '&r&7Members: %mcmmo_party_size%'
